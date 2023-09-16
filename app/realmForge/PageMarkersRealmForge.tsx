@@ -2,9 +2,9 @@
 
 import { useEffect, useState } from "react"
 
-export default function PageMarkers(){
+export default function PageMarkersRealmForge(){
 
-    const numberOfPageMarkers: number = 3
+    const numberOfPageMarkers: number = 2
 
     const mapMarkers:JSX.Element[] = []
 

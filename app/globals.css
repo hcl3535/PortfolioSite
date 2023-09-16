@@ -1,12 +1,61 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 html{
     scroll-snap-type: y mandatory;
+    font-family: 'Roboto', sans-serif;
 }
 
 .scrollSnap{
     scroll-snap-align: start;
     scroll-snap-stop: always;
+}
+
+.project :hover{
+    animation-name: grow;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes grow {
+    0%{
+        scale: 1;
+    }
+    100%{
+        scale: 1.05;
+    }
+}
+
+.about_me_pic{
+    transition: 1000ms opacity ease-in-out;
+}
+
+.first_Word_Red:before{
+    color: rgb(220 38 38);
+    content: "RealmForge";
+}
+.first_Word_Launch:before{
+    color: rgb(220 38 38);
+    content: "Launch";
+}
+
+.first_Word_JeepersWeather:before{
+    color: rgb(220 38 38);
+    content: "Jeepers Weather";
+}
+
+.first_Word_WizardsGame:before{
+    color: rgb(220 38 38);
+    content: "Wizards Game";
+}
+
+.first_Word_AnimalGame:before{
+    color: rgb(220 38 38);
+    content: "Animal Game";
+}
+
+.background{
+    background-image: -webkit-linear-gradient(30deg, #18191a  75%,#242526 25%);
 }
