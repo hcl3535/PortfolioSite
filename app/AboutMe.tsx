@@ -36,11 +36,11 @@ export default function AboutMe(){
         <section className="flex flex-col scrollSnap ml-48 mr-48 h-screen">
             <h1 className="text-6xl flex justify-center pt-5">About Me</h1>
             <section className="flex">
-                <section className="w-1/2 h-screen flex flex-col mt-40">
-                    <p className="text-3xl mb-5">I enjoy cooking BBQ, and building things weather its using my hands woodworking, or developing a website.</p>
-                    <p className="text-3xl">I am hard working and excited to use my creativity and technology skills to build applications. </p>
+                <section className="w-1/2 h-2/3 flex flex-col mt-40 justify-center mr-10">
+                    <p className="text-3xl mb-5">Hi my name is Hunter, I am a<span className="text-red-600"> software engineer </span>who enjoys creating user centric websites and leaning new technologies.</p>
+                    <p className="text-3xl">Some of my other hobbies include cooking <span className="text-red-600"> BBQ </span> for family and friends,<span className="text-red-600"> woodworking </span> and <span className="text-red-600"> cinematography</span> / <span className="text-red-600">photography </span>. </p>
                 </section>
-                <section className="w-1/2 h-screen flex flex-col justify-center overflow-hidden justify-self-center">
+                <section className="w-1/2 h-screen flex flex-col justify-center overflow-hidden justify-self-center ml-10">
                     <section className="flex flex-col self-center h-1/2 animate-fade">
                         <Image src={listOfIMGS[imgIdx]} alt="Picture of me" width={1896} height={2130} key={imgIdx} className="pr-20 max-h-full max-w-max self-center aspect-video min-h-full about_me_pic animate-fade-left animate-duration-1000" />
                         <ImageMarkers imgIdx={imgIdx}/>
