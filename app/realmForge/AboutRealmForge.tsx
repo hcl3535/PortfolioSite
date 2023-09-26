@@ -40,8 +40,8 @@ export default function AboutRealmForge(){
             <h1 className="text-6xl flex justify-center pt-5">RealmForge</h1>
             <section className="flex">
                 <section className="w-1/2 h-2/4 flex flex-col mt-40 justify-center mr-5w">
-                    <p className="text-3xl mb-5 first_Word_Red"> is an interactive map building tool made for games like D&D and other roll-Playing games. By creating an account, and importing assets you can create custom maps that are interactive.</p>
-                    <p className="text-3xl mb-5 ">once your done you can share your map which will give it a chance to be displayed on the front page for others to enjoy!</p>
+                    <p className="text-3xl mb-5 first_Word_Red"> is an interactive map building tool made for games like D&D and other roll-playing games. By creating an account and importing assets, you can create custom maps that are interactive.</p>
+                    <p className="text-3xl mb-5 ">Once your done you can share your map which will give it a chance to be displayed on the front page for others to enjoy!</p>
                     <p className="text-3xl mb-5 ">This is a FullStack application that many users are allready useing alongside their D&D games.</p>
                     <a href='https://www.realmforge.site/'>
                       <h1 className="text-3xl mb-5 first_Word_Launch"> RealmForge</h1>

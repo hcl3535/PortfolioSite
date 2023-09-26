@@ -40,8 +40,8 @@ export default function AboutAnimalGame(){
             <h1 className="text-6xl flex justify-center pt-5">Animal Game</h1>
             <section className="flex">
                 <section className="w-1/2 h-2/4 flex flex-col mt-40 justify-center mr-5w">
-                    <p className="text-3xl mb-5 first_Word_AnimalGame"> is a game I made for a teacher to use in her music class. This game is intended to help student interaction and focus in class. </p>
-                    <p className="text-3xl mb-5 ">This game uses audio queues to let the player know how they are doing.</p>
+                    <p className="text-3xl mb-5 first_Word_AnimalGame"> is a game I made for a teacher to use in her music class. This game is intended to help students interact and focus in class. </p>
+                    <p className="text-3xl mb-5 ">This game uses audio queues to let the students know how they are doing.</p>
                     <a href='https://animalgame-production.up.railway.app/'>
                       <h1 className="text-3xl mb-5 first_Word_Launch"> Animal Game</h1>
                     </a>

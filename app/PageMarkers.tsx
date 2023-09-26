@@ -6,7 +6,7 @@ export default function PageMarkers(){
 
     const numberOfPageMarkers: number = 3
 
-    const mapMarkers:JSX.Element[] = []
+    const pageMarkers:JSX.Element[] = []
 
     const [currentPage, setCurrentPage] = useState(0)
 
@@ -26,15 +26,15 @@ export default function PageMarkers(){
 
     for(let i = 1; i <= numberOfPageMarkers; i++){
         if(i === currentPage || i === 1 && currentPage === 0){
-            mapMarkers.push(<div className="h-5 w-5 bg-red-600 mb-5 rounded" key={i}></div>)
+            pageMarkers.push(<div className="h-5 w-5 bg-red-600 mb-5 rounded" key={i}></div>)
         } else {
-            mapMarkers.push(<div className="h-5 w-5 bg-white mb-5 rounded" key={i}></div>)
+            pageMarkers.push(<div className="h-5 w-5 bg-white mb-5 rounded " key={i}></div>)
         }
     }
 
     return(
-        <section className="fixed right-20 top-1/2">
-            <>{mapMarkers}</>
+        <section className="fixed right-5 top-1/2 lg:right-10">
+            <>{pageMarkers}</>
         </section>
     )
 }

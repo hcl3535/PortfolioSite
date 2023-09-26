@@ -16,7 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-gray-950 text-slate-100 mx-auto p-4 background`}>{children}</body>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+      </head>
+      <body className={`${inter.className} bg-gray-950 text-slate-100 mx-auto p-4 background sm: phone`}>{children}</body>
     </html>
   )
 }

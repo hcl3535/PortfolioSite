@@ -39,9 +39,9 @@ export default function AboutWizardGame(){
             <h1 className="text-6xl flex justify-center pt-5">Wizards Game</h1>
             <section className="flex">
                 <section className="w-1/2 h-2/4 flex flex-col mt-40 justify-center mr-5w">
-                    <p className="text-3xl mb-5 first_Word_WizardsGame"> is a game I made in unreal engine 4. It was coded using unreal engines bluePrint system.</p>
-                    <p className="text-3xl mb-5 ">This project was my introduction to coding and how i learned that i enjoy building and designing systems.</p>
-                    <p className="text-3xl mb-5 ">Some of the systems I built are leveling, multipule currencys, multiplayer, health, and spellcasting which all interact with each other.</p>
+                    <p className="text-3xl mb-5 first_Word_WizardsGame"> is a game I made in Unreal Engine 4. It was coded using Unreal Engines bluePrint system.</p>
+                    <p className="text-3xl mb-5 ">This project was my introduction to coding and how I learned that I enjoy building and designing systems.</p>
+                    <p className="text-3xl mb-5 ">Some of the systems I built are leveling, multiple currencies, multiplayer, health, and spell casting which all interact with each other.</p>
                     <section className="mt-5 h-1/5">
                       <h1 className="text-center text-3xl mb-5">built useing</h1>
                       <section className="flex justify-center">

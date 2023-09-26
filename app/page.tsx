@@ -4,7 +4,7 @@ import HomePage from "./HomePage";
 
 export default function Home(){
   return(
-    <>
+      <>
 
       <Header/>
 
@@ -12,6 +12,6 @@ export default function Home(){
 
       <Footer/>
 
-    </>
+      </>
   )
 }
