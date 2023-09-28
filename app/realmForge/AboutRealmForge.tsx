@@ -35,7 +35,7 @@ export default function AboutRealmForge(){
 
       
 
-      return(
+    return(
         <section className="flex flex-col lg:ml-48 lg:mr-48 h-screen">
             <h1 className="text-4xl lg:text-6xl flex justify-center pt-5">RealmForge</h1>
             <section className="flex flex-col h-4/6">
@@ -48,7 +48,7 @@ export default function AboutRealmForge(){
                       <h1 className="lg:text-3xl mb-5 first_Word_Launch"> RealmForge</h1>
                     </a>     
                   </section>
-                  <section className="h-1/5 w-full lg:w-1/2 lg:h-5/6 lg:flex flex-col justify-center overflow-hidden justify-self-center lg:ml-5 ">
+                  <section className="h-2/5 w-full lg:w-1/2 lg:h-5/6 lg:flex flex-col justify-center overflow-hidden justify-self-center lg:ml-5 ">
                     <section className="flex flex-col h-full self-center lg:h-1/2 animate-fade">
                         <Image src={listOfIMGS[imgIdx]} alt="Picture of me" width={1896} height={2130} key={imgIdx} className="lg:pr-20 max-h-full h-4/6 max-w-max self-center aspect-video lg:min-h-full about_me_pic animate-fade-left animate-duration-1000" />
                         <ImageMarkers imgIdx={imgIdx}/>

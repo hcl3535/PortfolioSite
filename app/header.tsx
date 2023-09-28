@@ -20,12 +20,12 @@ export default function Header(){
         <h1 className="whitespace-nowrap text-2xl mr-5 lg:flex mt-5">Hunter Lindsay</h1>
       </button>
       <section className="flex ml-auto">
-      <a
+      <button
         type="button" 
-        href="HunterLindsayTechnicalResume.pdf"
+        onClick={() => window.open('HunterLindsayTechnicalResume.pdf', '_blank')}
         className=" flex ml-5 mt-5 text-red-600 text-2xl">
         <h1 className="">Resume</h1>
-      </a>
+      </button>
       </section>
     </header>
   )
