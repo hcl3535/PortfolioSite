@@ -33,17 +33,17 @@ export default function AboutMe(){
       },[imgIdx])
 
       return(
-        <section className="flex flex-col scrollSnap lg:ml-48 lg:mr-48 h-screen overflow-hidden">
+        <section className="flex flex-col scrollSnap lg:ml-32 lg:mr-32 h-screen overflow-hidden">
             <h1 className="text-6xl flex justify-center pt-5 mb-5">About Me</h1>
             <section className="h-5/6">
-              <section className="flex flex-col h-3/5 lg:flex-row">
-                <section className="w-full flex flex-col justify-center lg:mr-10 align-middle">
+              <section className="flex flex-col h-3/5 lg:h-4/6 lg:flex-row">
+                <section className="w-full flex flex-col lg:w-1/2 justify-center lg:mr-10 align-middle">
                   <p className="lg:text-3xl mb-5">Hi my name is Hunter, I am a<span className="text-red-600"> software engineer </span>who enjoys creating user centric websites and leaning new technologies.</p>
                   <p className="lg:text-3xl mb-5">Some of my other hobbies include cooking <span className="text-red-600"> BBQ </span> for family and friends,<span className="text-red-600"> woodworking </span> and <span className="text-red-600"> cinematography</span> / <span className="text-red-600">photography </span>. </p>            
                 </section>
                 <section className=" lg:w-1/2 h-full flex flex-col justify-center overflow-hidden justify-self-center lg:ml-10 ml-7 mr-7">
-                    <section className="flex flex-col self-center align-middle lg:h-1/2 animate-fade">
-                        <Image src={listOfIMGS[imgIdx]} alt="Picture of me" width={1896} height={2130} key={imgIdx} className="pr-20 max-h-full h-1/2 max-w-max self-center justify-center aspect-video min-h-full about_me_pic animate-fade-left animate-duration-1000" />
+                    <section className="flex flex-col h-full self-center justify-center lg:h-5/6 animate-fade">
+                        <Image src={listOfIMGS[imgIdx]} alt="Picture of me" width={1896} height={2130} key={imgIdx} className="max-h-full h-4/6 w-max self-center aspect-video lg:min-h-full about_me_pic animate-fade-left animate-duration-1000" />
                         <ImageMarkers imgIdx={imgIdx}/>
                     </section>
                 </section>

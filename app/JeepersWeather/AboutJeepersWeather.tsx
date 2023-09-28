@@ -36,10 +36,10 @@ export default function AboutJeepersWeather(){
       
 
       return(
-        <section className="flex flex-col lg:ml-48 lg:mr-48 h-screen">
+        <section className="flex flex-col lg:ml-32 lg:mr-32 h-screen">
             <h1 className="text-4xl lg:text-6xl flex justify-center pt-5">Jeepers Weather</h1>
             <section className="flex flex-col h-4/6">
-              <section className="flex flex-col lg:flex-row lg:h-3/5">
+              <section className="flex flex-col lg:flex-row lg:h-screen">
                 <section className="lg:w-1/2  lg:h-1/2 flex flex-col  mt-2 lg:mt-40 lg:justify-center mr-5w ">
                     <p className="lg:text-2xl mb-5 first_Word_JeepersWeather">  is a weather app made for jeep people. You can input your location to get the weather in your area.</p>
                     <p className="lg:text-2xl mb-5 ">I created this app to push my skills in accessing and using api data. I also wanted to learn the proccess of uploading an app to the play store.</p>
@@ -49,8 +49,8 @@ export default function AboutJeepersWeather(){
                     </a>     
                   </section>
                   <section className="h-4/6 w-full lg:w-1/2 lg:h-5/6 lg:flex flex-col justify-center overflow-hidden justify-self-center lg:ml-5 ">
-                    <section className="flex flex-col h-full self-center lg:h-1/2 animate-fade">
-                        <Image src={listOfIMGS[imgIdx]} alt="Picture of me" width={1896} height={2130} key={imgIdx} className="lg:pr-20 max-h-full h-4/6 max-w-max self-center lg:min-h-full about_me_pic animate-fade-left animate-duration-1000" />
+                    <section className="flex flex-col h-full self-center lg:h-5/6 animate-fade">
+                        <Image src={listOfIMGS[imgIdx]} alt="Picture of me" width={1896} height={2130} key={imgIdx} className=" max-h-full h-4/6 max-w-max self-center lg:min-h-full about_me_pic animate-fade-left animate-duration-1000" />
                         <ImageMarkers imgIdx={imgIdx}/>
                     </section>
                   </section>

@@ -36,10 +36,10 @@ export default function AboutAnimalGame(){
       
 
       return(
-        <section className="flex flex-col lg:ml-48 lg:mr-48 h-screen">
+        <section className="flex flex-col lg:ml-32 lg:mr-32 h-screen">
             <h1 className="text-4xl lg:text-6xl flex justify-center pt-5">Animal Game</h1>
             <section className="flex flex-col h-4/6">
-              <section className="flex flex-col lg:flex-row lg:h-3/5">
+              <section className="flex flex-col lg:flex-row lg:h-screen">
                 <section className="lg:w-1/2  lg:h-1/2 flex flex-col  mt-2 lg:mt-40 lg:justify-center mr-5w ">
                     <p className="lg:text-2xl mb-5 first_Word_AnimalGame"> is a game I made for a teacher to use in her music class. This game is intended to help students interact and focus in class.</p>
                     <p className="lg:text-2xl mb-5 ">This game uses audio queues to let the students know how they are doing.</p>
@@ -48,9 +48,9 @@ export default function AboutAnimalGame(){
                       <h1 className="lg:text-3xl mb-5 first_Word_Launch"> Animal Game</h1>
                     </a>     
                   </section>
-                  <section className="h-2/5 w-full lg:w-1/2 lg:h-5/6 lg:flex flex-col justify-center overflow-hidden justify-self-center lg:ml-5 ">
-                    <section className="flex flex-col h-full self-center lg:h-1/2 animate-fade">
-                        <Image src={listOfIMGS[imgIdx]} alt="Picture of me" width={1896} height={2130} key={imgIdx} className="lg:pr-20 max-h-full h-4/6 max-w-max self-center aspect-video lg:min-h-full about_me_pic animate-fade-left animate-duration-1000" />
+                  <section className="h-2/5 w-full lg:w-1/2 lg:h-full lg:flex flex-col justify-center overflow-hidden justify-self-center lg:ml-5 ">
+                    <section className="flex flex-col h-full self-center justify-center lg:h-5/6 animate-fade">
+                        <Image src={listOfIMGS[imgIdx]} alt="Picture of me" width={1896} height={2130} key={imgIdx} className=" max-h-full h-4/6 w-max self-center aspect-video lg:min-h-full about_me_pic animate-fade-left animate-duration-1000" />
                         <ImageMarkers imgIdx={imgIdx}/>
                     </section>
                   </section>
