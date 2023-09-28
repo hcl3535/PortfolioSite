@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 
 export default function PageMarkersRealmForge(){
 
-    const numberOfPageMarkers: number = 2
+    const numberOfPageMarkers: number = 1
 
     const mapMarkers:JSX.Element[] = []
 
@@ -33,7 +33,7 @@ export default function PageMarkersRealmForge(){
     }
 
     return(
-        <section className="fixed right-20 top-1/2">
+        <section className="fixed right-5 top-1/2">
             <>{mapMarkers}</>
         </section>
     )

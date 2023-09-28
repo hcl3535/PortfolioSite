@@ -26,9 +26,9 @@ export default function PageMarkers(){
 
     for(let i = 1; i <= numberOfPageMarkers; i++){
         if(i === currentPage || i === 1 && currentPage === 0){
-            pageMarkers.push(<div className="h-5 w-5 bg-red-600 mb-5 rounded" key={i}></div>)
+            pageMarkers.push(<div className="h-5 w-5 bg-red-600 mb-3 mt-3 rounded" key={i}></div>)
         } else {
-            pageMarkers.push(<div className="h-5 w-5 bg-white mb-5 rounded " key={i}></div>)
+            pageMarkers.push(<div className="h-5 w-5 bg-white mb-3 mt-3 rounded " key={i}></div>)
         }
     }
 

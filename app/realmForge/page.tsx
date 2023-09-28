@@ -9,8 +9,8 @@ export default function RealmForge(){
         <>
             <Header/>
             <AboutRealmForge/>
-            <Video/>
-            <PageMarkersRealmForge/>
+            {/* <Video/> */}
+            {/* <PageMarkersRealmForge/> */}
             <Footer/>
         </>
     )

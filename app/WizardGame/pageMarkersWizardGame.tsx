@@ -33,7 +33,7 @@ export default function PageMarkersWizardsGame(){
     }
 
     return(
-        <section className="fixed right-20 top-1/2">
+        <section className="fixed right-5 top-1/2">
             <>{mapMarkers}</>
         </section>
     )

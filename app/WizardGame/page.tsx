@@ -9,8 +9,8 @@ export default function WizzardGame(){
         <>
             <Header/>
             <AboutWizardGame/>
-            <Video/>
-            <PageMarkersWizardsGame/>
+            {/* <Video/>
+            <PageMarkersWizardsGame/> */}
             <Footer/>
         </>
     )

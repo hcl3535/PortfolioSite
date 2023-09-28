@@ -60,3 +60,6 @@ html{
     background-image: -webkit-linear-gradient(30deg, #18191a  75%,#242526 25%);
 }
 
+.projectHolder > * {
+    margin-bottom: 1em;
+}
