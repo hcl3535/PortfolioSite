@@ -7,7 +7,7 @@ export default function FrontPage(){
                 <section className=" m-auto flex flex-col">
                     <section className="flex">
                         <h1 className="text-8xl text-red-600">Hi</h1>
-                        <h1 className="text-8xl ">, I'm</h1>
+                        <h1 className="text-8xl ">{`, I'm`}</h1>
                     </section>
                     <h1 className="text-8xl">Hunter</h1>
             
