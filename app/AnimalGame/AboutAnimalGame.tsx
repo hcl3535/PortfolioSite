@@ -44,7 +44,7 @@ export default function AboutAnimalGame(){
                     <p className="lg:text-2xl mb-5 first_Word_AnimalGame"> is a game I made for a teacher to use in her music class. This game is intended to help students interact and focus in class.</p>
                     <p className="lg:text-2xl mb-5 ">This game uses audio queues to let the students know how they are doing.</p>
                     {/* <p className="lg:text-2xl mb-5 ">This is a FullStack application that many users are allready useing alongside their D&D games.</p> */}
-                    <a href='https://www.realmforge.site/'>
+                    <a href='https://animalgame-production.up.railway.app/'>
                       <h1 className="lg:text-3xl mb-5 first_Word_Launch"> Animal Game</h1>
                     </a>     
                   </section>

@@ -42,10 +42,7 @@ export default function AboutWizardGame(){
                 <section className="lg:w-1/2  lg:h-1/2 flex flex-col  mt-2 lg:mt-40 lg:justify-center mr-5w ">
                     <p className="lg:text-2xl mb-5 first_Word_WizardsGame"> is a game I made in Unreal Engine 4. It was coded using Unreal Engines bluePrint system.</p>
                     <p className="lg:text-2xl mb-5 ">This project was my introduction to coding and how I learned that I enjoy building and designing systems.</p>
-                    <p className="lg:text-2xl mb-5 ">Some of the systems I built are leveling, multiple currencies, multiplayer, health, and spell casting which all interact with each other.</p>
-                    <a href='https://www.realmforge.site/'>
-                      <h1 className="lg:text-3xl mb-5 first_Word_Launch"> Wizard Game</h1>
-                    </a>     
+                    <p className="lg:text-2xl mb-5 ">Some of the systems I built are leveling, multiple currencies, multiplayer, health, and spell casting which all interact with each other.</p>    
                   </section>
                   <section className="h-2/5 w-full lg:w-1/2 lg:h-full lg:flex flex-col justify-center overflow-hidden justify-self-center lg:ml-5 ">
                     <section className="flex flex-col h-full self-center justify-center lg:h-5/6 animate-fade">

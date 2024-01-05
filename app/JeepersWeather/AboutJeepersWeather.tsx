@@ -44,7 +44,7 @@ export default function AboutJeepersWeather(){
                     <p className="lg:text-2xl mb-5 first_Word_JeepersWeather">  is a weather app made for jeep people. You can input your location to get the weather in your area.</p>
                     <p className="lg:text-2xl mb-5 ">I created this app to push my skills in accessing and using api data. I also wanted to learn the proccess of uploading an app to the play store.</p>
                     {/* <p className="lg:text-2xl mb-5 ">This is a FullStack application that many users are allready useing alongside their D&D games.</p> */}
-                    <a href='https://www.realmforge.site/'>
+                    <a href='https://play.google.com/store/apps/details?id=com.JeepersWeather.app&pli=1'>
                       <h1 className="lg:text-3xl mb-5 first_Word_Launch"> Jeepers Weather</h1>
                     </a>     
                   </section>
